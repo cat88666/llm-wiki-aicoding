@@ -66,3 +66,5 @@ AI Coding 工程闭环
 - [特征测试与 TDD 流程](artifact/03-失败案例重写/生产游戏AI重构重写案例/02-特征测试与TDD流程.md)
 - [小步实施流水线](artifact/03-失败案例重写/生产游戏AI重构重写案例/03-小步实施流水线.md)
 - [GitHub 管线与门禁](artifact/03-失败案例重写/生产游戏AI重构重写案例/04-GitHub管线与门禁.md)
+- [一次启动自主编排](artifact/03-失败案例重写/生产游戏AI重构重写案例/05-一次启动自主编排.md)
+- [生产重构总控 Prompt](artifact/03-失败案例重写/生产游戏AI重构重写案例/prompt/生产重构总控Prompt.md)
