@@ -4,7 +4,7 @@
 >
 > 方法来源：
 > - `wiki/summaries/01_SDD_TDD_驯服AI.md`
-> - `wiki/summaries/02_大项目里的AI_特征测试与GitHub管线.md`
+> - `wiki/summaries/02_大项目AI安全重构.md`
 >
 > 约束：本目录是全新的生产重构流程入口，不修改、不搬迁、不覆盖旧资料。
 
