@@ -1,4 +1,4 @@
-> ⚠️ **已废弃 / 历史中间副本**：本文件是 01 进入房间实现计划的早期草稿。正式版见 [`../../Junk-游戏准备重构/01-进入房间-实现计划.md`](../../具体模块功能重构/01-进入房间-实现计划.md)。保留仅作追溯，**请勿据此开发**。
+> ⚠️ **已废弃 / 历史中间副本**：本文件是 01 进入房间实现计划的早期草稿。正式版见 [`../../Junk-游戏准备重构/01-进入房间-实现计划.md`](../../Junk-游戏准备重构/01-进入房间-实现计划.md)。保留仅作追溯，**请勿据此开发**。
 
 # 进入房间重构 Implementation Plan
 
@@ -1059,7 +1059,7 @@ public void onEvent(UserEnterRoomFinishEventV2 event) {
 
         log.info("进入房间完成事件处理完毕 tableId:{} userId:{} handCode:{}", tableId, userId, event.getHandCode());
     } catch (Exception e) {
-        log.error("进入房间完成事件处理异常 tableId:{} userId:{}",
+        log.error("进入房间完成事件处理异常 tableId:{} userId:{}", 
                 context.getRequest().getTableId(), context.getRequest().getUserId(), e);
     }
 }
@@ -1102,7 +1102,7 @@ grep -n "incrementAndGet\|enterRoomUserCount" \
 - [ ] **Step 3: 推送两个工程到远程**
 
 ```bash
-TOKEN="<GITLAB_ACCESS_TOKEN>"
+TOKEN="[REDACTED_GITLAB_TOKEN]"
 
 git -C dx-game-frame push \
   "https://junk:${TOKEN}@gitlab.ak12.cc/dx-b-server/dx-game-frame.git" \
